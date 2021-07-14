@@ -5,6 +5,10 @@ TPE is a pixel-level image editor for the terminal.
 You need to install the Notcurses library to compile TPE. (`libnotcurses-dev` on Debian)
 Run `make` to build the `tpe` executable. `make help` explains more.
 
+## Installation
+Run `make install` to copy the `tpe` binary into a given prefix (the default is
+`/usr/local/bin`). This may require running make as root.
+
 ## Usage
 To open a file with TPE pass its path as a command line argument. You can pass
 multiple paths to open more than one file:
